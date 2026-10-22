@@ -31,3 +31,15 @@ build/
 
 ### VS Code ###
 .vscode/
+### macOS ###
+.DS_Store
+
+### Respaldos y archivos temporales ###
+*.bak
+*.backup.sh
+*.log
+
+### Archivos locales sensibles ###
+.env
+.env.*
+!.env.example
